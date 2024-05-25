@@ -1,20 +1,20 @@
-[1;34mTermChat 
-[0;37mApplication de chat depuis le terminal 
-[0m
-[0;34mInstallation 
-[0;37mExecutez le fichier 'install.sh' 
-[0;36m./install.sh
-[0m
-[0;34mDésinstallation 
-[0;37mExecute le fichier 'uninstall.sh' 
-[0;36m./uninstall.sh
-[0m
-[0;34mUtilisation
-[0;37mPour utiliser le TermChat tout se fait avec la commande : 
-[0;36mtch
-[0m
-[0;37mPoyr voir la page d'aide, faites la commande : 
-[0;36mtc -h
+# TermChat 
+Application de chat depuis le terminal 
+
+## Installation 
+Executez le fichier 'install.sh' 
+> ./install.sh
+
+## Désinstallation 
+Executez le fichier 'uninstall.sh' 
+> ./uninstall.sh
+
+## Utilisation
+Pour utiliser le TermChat tout se fait avec la commande : 
+> tch
+
+Pour voir la page d'aide, faites la commande : 
+> tc -h
 [0m
 [0;34mATTENTION
 [0;37mSi vous souhaitez ajouter des aliases dans le fichier ~/.bash_aliases, ajoutez les à la fin du fichier ! et ne touchez pas aux deux premières lignes du fichier.
