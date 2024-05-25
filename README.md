@@ -16,7 +16,7 @@ Application de chat depuis le terminal
 > ## Utilisation
 > Pour utiliser le TermChat tout se fait avec la commande : 
 > ```
-> tch
+> tc
 > ```
 > Pour voir la page d'aide, faites la commande : 
 > ```
