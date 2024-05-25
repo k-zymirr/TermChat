@@ -7,12 +7,7 @@ then
 	write $White "Une installation de TermChat est détectée sur la machine";
 else
 	write $BWhite "Installation..."
-
-	write $White "Mise a jour du proxy pour le netcat"
-	GET http://proxy.iutbourg.univ-lyon1.fr HTTP/1.0 > nc squid-proxy;
-	rm nc;
-	write $Green "[SUCCES]";
-
+ 
 	write $White "Accord des droits d'execution";
 	chmod +x ./code/tc.sh;
 	write $Green "[SUCCES]";
