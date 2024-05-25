@@ -18,7 +18,6 @@ Application de chat depuis le terminal
 > ```
 > tch
 > ```
-
 > Pour voir la page d'aide, faites la commande : 
 > ```
 > tc -h
