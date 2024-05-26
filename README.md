@@ -4,12 +4,14 @@ Application de chat depuis le terminal
 ## Installation 
 Executez le fichier 'install.sh' 
 ```
+chmod +x install.sh
 ./install.sh
 ```
 
 ## Désinstallation 
 Executez le fichier 'uninstall.sh' 
 ```
+chmod +x uninstall.sh
 ./uninstall.sh
 ```
 
