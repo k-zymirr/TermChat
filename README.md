@@ -1,6 +1,20 @@
 # TermChat 
 Application de chat depuis le terminal 
 
+## Prérequis
+Vous devez être à jour
+```
+sudo apt-get update && upgrade
+```
+Avoir nc
+```
+sudo apt install nc
+```
+Avoir ncat
+```
+sudo apt install ncat
+```
+
 ## Installation 
 Executez le fichier 'install.sh' 
 ```
