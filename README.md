@@ -4,7 +4,7 @@ Application de chat depuis le terminal
 ## Prérequis
 Vous devez être à jour
 ```
-sudo apt-get update && upgrade
+sudo apt-get update && apt-get upgrade
 ```
 Avoir nc
 ```
