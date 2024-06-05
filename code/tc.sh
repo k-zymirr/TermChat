@@ -1,6 +1,7 @@
 source ~/.config/TermChat/colors.sh
 source ~/.config/TermChat/host.sh
 source ~/.config/TermChat/join.sh
+source ~/.config/TermChat/chname.sh
 
 
 if [ ! -d ~/.config/TermChat ]
@@ -26,6 +27,9 @@ else
 			write $White "Un utilisateur devras faire la commande 'tc host'  (voir 'tc host -h' pour la page d'aide)";
 			write $White "Il devras ensuite laisser le terminal touner et en ouvrir un autre";
 			write $White "Dans ce nouveau terminal ainsi que tous les autres utilisateurs souhaitants se connecter au chat, il devras faire la commande 'tc join' (voir 'tc join -h' pour la page d'aide)";
+		elif [ $1 == "chname" ]
+		then
+			chName;
 		elif [ $1 == "host" ]
 		then
 			write $BPurple "HOST";

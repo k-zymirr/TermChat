@@ -35,7 +35,7 @@ else
 
 	write $White "Notes de mise à jour";
 	echo "Date : $(date -I)" > ~/.config/TermChat/data/note.kzi;
-	echo "Version : 1.0" >> ~/.config/TermChat/data/note.kzi;
+	echo "Version : 1.1" >> ~/.config/TermChat/data/note.kzi;
 	write $Green "[SUCCES]";
 
 	write $White "Entrez un nom d'utilisateur";
@@ -44,4 +44,5 @@ else
 	end='"''$''0'"'";
 	echo "	mawk -W interactive $beg$username: $end | nc "'$''1' '$''2'";" >> ~/.config/TermChat/join.sh;
 	echo "}" >> ~/.config/TermChat/join.sh;
+	write $Green "Non d'utilisateur mis à jour";
 fi

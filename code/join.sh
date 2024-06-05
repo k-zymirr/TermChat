@@ -14,6 +14,3 @@ function join () {
 	resW;
 	write $UCyan "IP :$White $1";
 	write $UCyan "Port :$White $2";
-	nc $1 $2;
-}
-
