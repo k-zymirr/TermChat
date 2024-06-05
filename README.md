@@ -52,7 +52,7 @@ Pour voir la page d'aide, faites la commande :
 tc -h
 ```
 
->> ###Example Simple
+>> Example Simple
 >> Un utilisateur héberge le chat
 >> ```
 >> tc host
