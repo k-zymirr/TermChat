@@ -52,19 +52,19 @@ Pour voir la page d'aide, faites la commande :
 tc -h
 ```
 
->> Example Simple
->> Un utilisateur héberge le chat
->> ```
->> tc host
->> ```
->> (Un port est spécifié, par défault c'est le 8080, inutile de le changer si vous ne savez pas ce que vous faites)
->>
->> L'hébergeur ouvre ensuite un second terminal, les personnes voulant participer ouvrent elles aussi un temrinal et rejoignent le chat
->> ```
->> tc join
->> ```
->> L'adresse IP et le port sont ensuite demandés (elle est spécifié sur le terminal qui host)
->> La connexion s'éttablie et vous pouvez donc parler
+> Example Simple d'utilisation
+> Un utilisateur héberge le chat
+> ```
+> tc host
+> ```
+> (Un port est spécifié, par défault c'est le 8080, inutile de le changer si vous ne savez pas ce que vous faites)
+>
+> L'hébergeur ouvre ensuite un second terminal, les personnes voulant participer ouvrent elles aussi un temrinal et rejoignent le chat
+> ```
+> tc join
+> ```
+> L'adresse IP et le port sont ensuite demandés (elle est spécifié sur le terminal qui host)
+> La connexion s'éttablie et vous pouvez donc parler
 
 
 ## ATTENTION
