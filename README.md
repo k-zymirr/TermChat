@@ -53,6 +53,7 @@ tc -h
 ```
 
 > Example Simple d'utilisation
+> 
 > Un utilisateur héberge le chat
 > ```
 > tc host
@@ -64,6 +65,7 @@ tc -h
 > tc join
 > ```
 > L'adresse IP et le port sont ensuite demandés (elle est spécifié sur le terminal qui host)
+>
 > La connexion s'éttablie et vous pouvez donc parler
 
 
